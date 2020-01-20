@@ -1,0 +1,27 @@
+{
+  "name": "legacy-decorators",
+  "version": "0.1.0",
+  "description": "A lightweight decorator which allows you to use decorators defined with the legacy syntax.",
+  "keywords": [
+    "decorators",
+    "ESNext"
+  ],
+  "homepage": "https://github.com/jajaperson/legacy-decorators#readme",
+  "bugs": {
+    "url": "https://github.com/jajaperson/legacy-decorators/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jajaperson/legacy-decorators.git"
+  },
+  "type": "module",
+  "main": "src/legacy-decorators.mjs",
+  "scripts": {
+    "release": "np"
+  },
+  "author": "James Jensen <jamesarthurjensen@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "np": "*"
+  }
+}
