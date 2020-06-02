@@ -14,7 +14,7 @@ Simply import the `@_` decorator from `legacy-decorators`, and give it a legacy 
 
 ```js
 import { @_ } from "legacy-decorators";
-import { oldClassDecorator } from "./old-decorators.mjs";
+import { oldClassDecorator } from "./old-decorators";
 
 @_(oldDecorator("arg1", "arg2"))
 class C { }
@@ -23,7 +23,7 @@ class C { }
 
 ```js
 import { @_ } from "legacy-decorators";
-import { oldMethodDecorator } from "./old-decorators.mjs";
+import { oldMethodDecorator } from "./old-decorators";
 
 class C {
   @_(oldDecorator("arg1", "arg2"))
