@@ -4,7 +4,7 @@ A lightweight decorator which allows you to use decorators defined with the lega
 
 > ## :warning: Important
 >
-> This doesn't actually work yet, and won't until [this proposal](https://github.com/tc39/proposal-decorators) is implemented. I'm not even sure if it will work once it is.
+> The static decorators proposal got canceled, so this is useless.
 
 This package aims to support the old decorator syntax in modern javascript.
 
